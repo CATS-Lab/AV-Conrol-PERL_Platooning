@@ -17,10 +17,11 @@ The project is developed by Python 3. Please ensure you have a Python 3 environm
 
 The code related to our data processing and algorithm are:
 
-- **trajectory_generation.py** - Code used to generate reference trajectories through IDM model or the OpenACC dataset.
-- **PERL_simulation.py** - The main function calls the PERL algorithm.
+- **simulation/trajectory_generation.py** - Code used to generate reference trajectories through IDM model or the OpenACC dataset.
+- **simulation/PERL_simulation.py** - The main function calls the PERL algorithm.
+- **physical experiment/** - Code related to the reduced-scale platform.
 
-To use this repo, run the Python script `PERL_simulation.py`. As you proceed through each Python script, always verify the paths for both the input and output files. This ensures that everything runs smoothly.
+As you proceed through each Python script, always verify the paths for both the input and output files. This ensures that everything runs smoothly.
 
 ### Data
 
